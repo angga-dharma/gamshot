@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailMainActivity">
+
+    <TextView
+        android:id="@+id/txtdetailgame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Game"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/gambardetail"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/slide"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="55dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtdetailgame"/>
+
+    <TextView
+        android:id="@+id/txtnamadetailgame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Game Tersebut"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/gambardetail"
+        />
+
+    <TextView
+        android:id="@+id/txtusia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*untuk remaja usia 13+"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtnamadetailgame"
+        />
+
+    <TextView
+        android:id="@+id/txtstrategi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Strategi"
+        android:textColor="#4F75FD"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtusia"
+        />
+
+    <TextView
+        android:id="@+id/txtmoba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:text="Moba"
+        android:textColor="#4F75FD"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtusia" />
+
+    <TextView
+        android:id="@+id/txtmultiplayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="10dp"
+        android:text="Multi player"
+        android:textColor="#4F75FD"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtusia" />
+
+    <TextView
+    android:id="@+id/txtdeskripsi"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="10dp"
+    android:text="Deskripsi"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/txtstrategi" />
+
+    <TextView
+        android:id="@+id/txtisideskripsi"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="30dp"
+        android:text="Game adalah sesuatu yang dapat dimainkan dengan aturan tertentu sehingga ada yang menang dan ada yang kalah, biasanya dalam konteks tidak serius atau dengan tujuan refreshing"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdeskripsi" />
+
+    <TextView
+        android:id="@+id/txtTrailer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Trailer"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtisideskripsi" />
+
+    <TextView
+        android:id="@+id/txtisiTrailer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Https:?///"
+        android:textColor="#4F75FD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTrailer"
+        />
+
+    <TextView
+        android:id="@+id/txtpublisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Pulibsher"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtisiTrailer" />
+
+    <TextView
+        android:id="@+id/txtisipublisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Ubisoft"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtpublisher" />
+
+    <TextView
+        android:id="@+id/txtkategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Kategori"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtisipublisher" />
+
+    <TextView
+        android:id="@+id/txtisikategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="PC"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtkategori" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
