@@ -10,8 +10,8 @@ Gamshot adalah aplikasi mobile Android untuk melihat informasi seputar game. Apl
 
 - **Language:** Kotlin
 - **Platform:** Android
-- **Min SDK:** *[sesuaikan dengan project kamu]*
-- **Target SDK:** *[sesuaikan dengan project kamu]*
+- **Min SDK:** *24*
+- **Target SDK:** *27*
 
 ## ✨ Fitur
 
@@ -19,7 +19,6 @@ Gamshot adalah aplikasi mobile Android untuk melihat informasi seputar game. Apl
 - Detail informasi game
 - Search & filter game
 - Rating dan review
-- *[tambahkan fitur lain yang ada]*
 
 ## 📋 Requirement
 
@@ -46,13 +45,12 @@ Gamshot adalah aplikasi mobile Android untuk melihat informasi seputar game. Apl
 ## 📦 Dependencies
 
 ```gradle
-// Tambahkan dependencies utama yang kamu pakai
-// Misal: Retrofit, Glide, Room, dll
+   retrofit
 ```
 
 ## 🌐 API
 
-*[Kalau pakai API external, sebutin disini]*
+*Pakai API Internal*
 
 ## 📸 Screenshot
 
@@ -61,9 +59,8 @@ Gamshot adalah aplikasi mobile Android untuk melihat informasi seputar game. Apl
 ## 🛠️ Development
 
 Project ini dibuat menggunakan:
-- MVVM Architecture *(atau architecture pattern yang kamu pakai)*
+- MVVM Architecture
 - Material Design Components
-- Kotlin Coroutines *(kalau pakai)*
 
 ## 🤝 Kontribusi
 
